@@ -1,0 +1,15 @@
+{
+  "@@last_modified": "2020-10-04T20:06:53.048140",
+  "pythonTest": "python test message",
+  "@pythonTest": {
+    "description": "Test message to show how localization works in flutter",
+    "type": "text",
+    "placeholders": {}
+  },
+  "exampleMessage": "Example localization message",
+  "@exampleMessage": {
+    "description": "Test message to show how localization works in flutter",
+    "type": "text",
+    "placeholders": {}
+  }
+}

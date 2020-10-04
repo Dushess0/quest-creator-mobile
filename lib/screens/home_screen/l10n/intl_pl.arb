@@ -1,0 +1,9 @@
+{
+  "@@last_modified": "2020-10-04T18:03:54.911677",
+  "exampleMessage": "Przykladowa wiadomość do przetłumaczenia",
+  "@exampleMessage": {
+    "description": "Test message to show how localization works in flutter",
+    "type": "text",
+    "placeholders": {}
+  }
+}
