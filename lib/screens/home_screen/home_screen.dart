@@ -6,8 +6,13 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: MapWidget(),
+      body:  Padding(
+        padding: const EdgeInsets.only(left: 10.0,right: 10.0,top: 70.0),
+        child: SizedBox(
+          width: 350.0,
+          height: 300.0,
+          child: MapWidget()
+        ),
       ),
       bottomNavigationBar: BottomAppBar(
         color: Theme.of(context).primaryColor,

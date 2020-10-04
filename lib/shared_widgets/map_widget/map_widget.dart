@@ -7,7 +7,7 @@ import 'package:mapbox_gl/mapbox_gl.dart';
 class MapWidget extends StatelessWidget {
 
 
-  static const String ACCESS_TOKEN = "SECRET_TOKEN";
+  static const String ACCESS_TOKEN = "pk.eyJ1IjoiZHVzaGVzcyIsImEiOiJja2VmcWpneHcwc201MnluNzl3ZDRjNDl1In0.sV8IejZBXjXoUbHgRGeN6w";
 
 
   @override
@@ -18,6 +18,9 @@ class MapWidget extends StatelessWidget {
           initialCameraPosition:
           const CameraPosition(target: LatLng(0.0, 0.0)),
         )
+
+
+       
     );
   }
 }
