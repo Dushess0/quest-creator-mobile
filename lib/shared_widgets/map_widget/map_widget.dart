@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 
-class MapWidget extendsas StatelessWidget {
+class MapWidget extend StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text('It is map widget'),asd 
+      child: Text('It is map widget'),
     );
   }
 }
