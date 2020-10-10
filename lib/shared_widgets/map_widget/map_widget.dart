@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-class MapWidget extends StatelessWidget {
+class MapWidget extend StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
